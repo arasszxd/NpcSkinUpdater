@@ -1,0 +1,39 @@
+# ==========================================
+#          NpcSkinUpdater Config
+# ==========================================
+
+# Update interval in seconds (default is 300 seconds / 5 minutes)
+update-interval: 300
+
+# Enable console messages when an NPC skin is successfully updated
+log-updates: true
+
+# The command format to run when updating the skin.
+# Placeholders:
+# {npc} - The name of the NPC from the list below
+# {player} - The player name resolved from the placeholder
+# Examples:
+# - Citizens: "npc skin {npc} {player}"
+# - FancyNpcs: "npc skin {npc} {player}"
+update-command: "npc skin {npc} {player}"
+
+# List of NPCs and their associated placeholders.
+# Format:
+# npcs:
+#   <npc-name>: "<placeholder>"
+npcs:
+  skyblock1: "%Level_bskyblock_top_name_1%"
+  skyblock2: "%Level_bskyblock_top_name_2%"
+  skyblock3: "%Level_bskyblock_top_name_3%"
+  skyblock4: "%essentials_baltop_player_0%"
+  skyblock5: "%essentials_baltop_player_1%"
+  skyblock6: "%essentials_baltop_player_2%"
+
+# ==========================================
+#          Update Checker Settings
+# ==========================================
+# Enables update checks on startup and when administrators join.
+# Note: You should replace the resource-id with your actual SpigotMC resource ID after uploading.
+update-checker:
+  enabled: true
+  resource-id: 0 # Don't change this

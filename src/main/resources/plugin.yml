@@ -1,0 +1,14 @@
+name: NpcSkinUpdater
+version: '1.0.0'
+main: com.arassz.NpcSkinUpdater
+api-version: '1.21'
+author: arassz
+depend: [PlaceholderAPI]
+softdepend: [FancyNpcs, Citizens]
+
+commands:
+  npcskinupdater:
+    description: NpcSkinUpdater command
+    aliases: [nsu]
+    permission: npcskinupdater.admin
+    usage: /<command> reload

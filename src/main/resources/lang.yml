@@ -1,0 +1,10 @@
+# ==========================================
+#         NpcSkinUpdater Language Config
+# ==========================================
+
+prefix: "&a[NpcSkinUpdater] "
+no-permission: "&cYou do not have permission to run this command!"
+usage: "&cUsage: /nsu reload"
+reload-success: "&aConfiguration and messages successfully reloaded!"
+update-available: "&eA new update is available! &7(Current: {current} -> New: {new})"
+update-link: "&ePlease visit the SpigotMC page to download the update."
