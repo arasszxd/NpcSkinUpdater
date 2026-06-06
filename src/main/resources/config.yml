@@ -36,4 +36,4 @@ npcs:
 # Note: You should replace the resource-id with your actual SpigotMC resource ID after uploading.
 update-checker:
   enabled: true
-  resource-id: 0 # Don't change this
+  resource-id: 135937 # Don't change this
